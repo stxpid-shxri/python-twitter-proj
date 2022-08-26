@@ -11,7 +11,7 @@ def days_between(d2):
     d2 = d2.date()
     return abs((d2 - d1).days) / 30
 
-#get config data
+#get config data parser
 config = configparser.ConfigParser()
 config.read('config.ini')
 
